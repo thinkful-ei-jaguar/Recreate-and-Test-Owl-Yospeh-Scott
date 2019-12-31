@@ -1,18 +1,16 @@
 import React from "react";
-import "./participant.css";
-import "./src/store.js"
+import "./Participant.css";
 
-const participant = ({ name, avatar, inSession, onStage}) =>  {
+
+export default function Participant(props) {
     return (
         <div className="participant">
-            <img className="avatar" src={avatar} alt="avatar" />
+            <img className="avatar" src={props.avatar} alt="avatar" />
         <div className="information">
-            <p>{name}</p>
-            <p>{inSession}</p>
-            <p>{onStage}</p>        
+            <p>{props.name}</p>
+            <p>{props.inSession}</p>
+            <p>{props.onStage}</p>        
         </div>
         </div>
     )
 }
-
-export default participant;
