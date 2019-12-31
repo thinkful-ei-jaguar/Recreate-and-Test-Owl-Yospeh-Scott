@@ -4,15 +4,14 @@ import List from './List'
 import renderer from 'react-test-renderer';
 
 
-describe('participantList Component', () => {
+describe('List Component', () => {
   it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(
     <List 
-        header='List 1'
         cards={[
-          {id: 1, title: 'Raindrops', content: 'jdnsda'},
-          {id: 2, title: 'Whiskers', content: 'hjkshfs'}
+          {id: 1, name: 'Yosef', avatar: 'https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1', inSession: true, onStage: true },
+          {id: 2, name: 'Scott', avatar: 'https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1', inSession: false, onStage: true }
          ]}
       />, 
       div

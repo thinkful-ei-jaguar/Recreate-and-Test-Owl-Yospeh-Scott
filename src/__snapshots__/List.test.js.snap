@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Component renders the UI as expected 1`] = `
+<section
+  className="List"
+>
+  <div
+    className="List-participants"
+  >
+    <div
+      className="participant"
+    >
+      <img
+        alt="avatar"
+        className="avatar"
+      />
+      <div
+        className="information"
+      >
+        <p />
+        <p />
+        <p />
+      </div>
+    </div>
+    <div
+      className="participant"
+    >
+      <img
+        alt="avatar"
+        className="avatar"
+      />
+      <div
+        className="information"
+      >
+        <p />
+        <p />
+        <p />
+      </div>
+    </div>
+  </div>
+</section>
+`;
