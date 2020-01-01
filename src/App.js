@@ -1,6 +1,7 @@
 import React from 'react';
 import List from './List';
 import './App.css';
+import Stage from './Stage'
 
 function App(props) {
   return (
@@ -10,10 +11,11 @@ function App(props) {
       </div>
 
       <div className="stage">
-        
+        <Stage participants={props.store.participants} />
       </div>
+
       <div className="chatLog">
-        
+
       </div>
 
 

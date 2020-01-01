@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stage Component renders the UI as expected 1`] = `
+<div
+  className="participantsStage"
+>
+  <h3 />
+  <h3>
+    <img
+      alt="avatar"
+    />
+  </h3>
+</div>
+`;

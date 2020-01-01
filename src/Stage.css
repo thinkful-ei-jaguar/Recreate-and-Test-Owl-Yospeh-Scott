@@ -1,0 +1,8 @@
+
+.participantsStage {
+  position: absolute;
+  top: 0;
+  left: 25vw;
+  width: 100%;
+  background-color: slategray;
+}

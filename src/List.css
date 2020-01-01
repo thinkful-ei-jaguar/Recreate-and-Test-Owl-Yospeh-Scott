@@ -1,0 +1,9 @@
+.List {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25vw;
+  height: 85vh;
+  background-color: thistle;
+  overflow: auto;
+}
